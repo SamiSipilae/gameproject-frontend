@@ -1,0 +1,26 @@
+<center>
+{{message}}
+<div style="width: 40%;">
+<div class="input-group">
+   <input ng-model="name" id="name" class="form-control col-xs-3" >
+   <span class="input-group-btn">
+       
+<button ng-click="save()" class="btn btn-success" type="submit" name="action">save</button>
+   </span>
+</div>
+<BR>
+
+
+</div>
+<canvas id="can" width="640" height="640" style="top:10%;left:10%;border:2px solid;"></canvas>
+<BR>
+<button ng-click="erase()" class="btn btn-primary" type="submit" name="action">erase</button>
+
+<button ng-click="draw_wall()" class="btn btn-primary" type="submit" name="action">draw</button>
+
+
+<button ng-click="set_start()" class="btn btn-default" type="submit" name="action">Set Start</button>
+
+<button ng-click="set_goal()"class="btn btn-default" type="submit" name="action">Set Goal</button>
+</center>		
+	
